@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+.hero{
+	display:grid;
+	justify-content:center;
+	justify-items:center;
+	align-items:center;
+	grid-template-columns: 3fr 1fr;
+	gap:10px;
+}
+
+img{
+	height:100%;
+	width:100%;
+	object-fit:cover;
+}
+
+.item2{
+	text-align:center
+}
+
+button{
+	padding:10px;
+	color:white;
+	background-color:red;
+	border-radius:3px;
+}
